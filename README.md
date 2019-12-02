@@ -37,7 +37,7 @@ for (size_t i = 0; i < n; i++; {
 	}
 }
 ``` 
-This works, but it is very inefficient. If the array is ordered, there is a lot of double counting. If you're just running the routine very many times, and the array is not too large, the chances are it will work adequately well and you may not even notice a problem.
+This works, but it is very inefficient. If the array is ordered, there is a lot of double counting. If you're just running the routine a relatively few number of times, and the array is not too large, the chances are it will work adequately well and you may not even notice a problem.
 
 If the routine runs hundreds of thousands of times as part of your programme, you may run into difficulties.
 
